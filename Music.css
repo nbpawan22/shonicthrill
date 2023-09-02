@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #0A1128;
+   
+}
+
+.navbar{
+    top: 0;
+    bottom: 0;
+background-color :#0A1128;
+z-index: 1;
+    position:sticky;
+    color: wheat;
+    font-size: 1.2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+padding-left: 2em;
+padding-right: 2em;
+height: auto;
+width: auto;
+
+}
+.navdiv{
+   padding-top: 0.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#lego{
+padding-left: 0;
+    align-items: center;
+   border-radius: 4em;
+ height: 5em;
+ width: 5em;
+}
+
+li{
+    list-style: none;display: inline-block;margin-right: 2em;
+}
+li a{
+    color: rgb(132, 0, 255); font-size: 1.2em;
+    
+}
+li:hover{
+ 
+ box-shadow:0 0 5px  rgb(255, 255, 255);
+}
+#search{
+    color: black;
+    height: 2.5em;
+    width:15em;
+    border:solid rgb(0, 0, 0);
+ border-radius: 0.9em;
+ background-color: rgb(255, 255, 255);
+  
+}
+#select{
+    border-radius: 0;
+    font-size: 1.2em;
+    color: rgb(132, 0, 255) ;
+    border-style: none;
+   
+   background-color:#0A1128;
+}
+option{
+    color: rgb(0, 162, 255)
+}
+
+.maindiv{
+padding-left: 2em;
+padding-right: 2em;
+    padding-top: 5em;
+    padding-bottom: 4em;
+width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:#0A1128;
+  
+}
+.boxdiv{
+    border-radius: 0.3em;
+    margin-left: 1em;
+ margin-bottom: 2em;
+    background-color:transparent;
+    border:solid slategrey;
+    height: 23em;
+    width:14em;
+  align-content: center;
+    align-items: center;
+  
+}
+#image{
+    height:12em;
+    width: 13em;
+    border-radius: 1.9em;
+    padding: 0.5em;
+}
+#ALec{
+    width:13em ;
+    height: 3em;
+ padding-left: 0.5em;
+}
+#Lyric{
+
+border-radius: 1.5em;
+height: 3em;
+width: 8em;
+color: rgb(0, 0, 0);
+background-color: #1282A2;
+border-style: none;
+
+}
+#Lyric:hover{
+    background-color: rgb(66, 77, 179);
+}
+marquee{
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+
+}
+#fb{
+    width: 4em;
+    height: 4em;
+}
+#ju{
+    font-size: 2em;
+    color: springgreen ; 
+}
+.bottom{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-top: 0;
+}
